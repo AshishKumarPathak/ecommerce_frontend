@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #006eff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar__logo-search {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo-image {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* Adjust color as needed */
+}
+
+.navbar__search {
+  position: relative;
+}
+
+.navbar__search input {
+  padding: 10px 40px 10px 10px; /* Adjust padding to make room for icon */
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999; /* Adjust color as needed */
+  cursor: pointer;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff8f8;
+  font-size: 18px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-trigger {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+  margin-right: 5px;
+}
+
+.dropdown-icon {
+  font-size: 14px; /* Adjust icon size */
+  color: #333; /* Adjust color as needed */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px; /* Increase font size for dropdown items */
+  font-weight: bold; /* Make text bold */
+}
+
+.dropdown-menu a:hover {
+  background-color: #f4f4f4;
+}
